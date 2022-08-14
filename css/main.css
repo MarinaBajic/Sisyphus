@@ -1,4 +1,23 @@
 body {
   background: #28293E;
+  color: #FCFCFF;
   margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+a {
+  color: #D5D5D6;
+  text-decoration: none;
+}
+
+button {
+  background: #FF3366;
+  color: #FCFCFF;
+  padding: 0.6em 1.8em;
+  border: 0 solid #FF3366;
+  border-radius: 0.3em;
 }/*# sourceMappingURL=main.css.map */

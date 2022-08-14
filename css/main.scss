@@ -1,4 +1,27 @@
+$background-color: #28293E;
+$main-text-color: #FCFCFF;
+$secondary-color: #D5D5D6;
+$tertiary-color: #FF3366;
+
 body {
-    background: #28293E;
+    background: $background-color;
+    color: $main-text-color;
     margin: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+}
+a {
+    color: $secondary-color;
+    text-decoration: none;
+}
+
+button {
+    background: $tertiary-color;
+    color: $main-text-color;
+    padding: .6em 1.8em;
+    border: 0 solid $tertiary-color;
+    border-radius: 0.3em;
 }
