@@ -56,3 +56,22 @@ header {
         }
     }
 }
+
+.hero {
+    padding: 2em;
+    
+    .email {
+        input {
+            padding: .4em 1em;
+            border-color: $secondary-color;
+            border-radius: 0.6em;
+            background: $background-color;
+            color: $main-text-color;
+        }
+
+        button {
+            padding: .6em 1em;
+            margin: 0 0.5em;
+        }
+    }
+}

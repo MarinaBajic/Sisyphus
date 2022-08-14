@@ -48,4 +48,19 @@ header ul {
 header ul a {
   display: block;
   padding: 0.8em;
+}
+
+.hero {
+  padding: 2em;
+}
+.hero .email input {
+  padding: 0.4em 1em;
+  border-color: #D5D5D6;
+  border-radius: 0.6em;
+  background: #28293E;
+  color: #FCFCFF;
+}
+.hero .email button {
+  padding: 0.6em 1em;
+  margin: 0 0.5em;
 }/*# sourceMappingURL=main.css.map */
