@@ -1,2 +1,3 @@
 # Sisyphus
-Vezbanje Figma 2 Impl
+Vezbanje
+Implementacija random Figma dizajna
