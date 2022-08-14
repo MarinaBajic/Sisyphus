@@ -1,21 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap');
+
 $background-color: #28293E;
 $main-text-color: #FCFCFF;
 $secondary-color: #D5D5D6;
 $tertiary-color: #FF3366;
 
 body {
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
     background: $background-color;
     color: $main-text-color;
     margin: 0;
 }
 
 ul {
-    list-style: none;
+    list-style-type: none;
     margin: 0;
+    padding: 0;
 }
 a {
     color: $secondary-color;
     text-decoration: none;
+}
+img {
+    width: 100%;
 }
 
 button {
@@ -24,4 +32,27 @@ button {
     padding: .6em 1.8em;
     border: 0 solid $tertiary-color;
     border-radius: 0.3em;
+}
+
+.demo {
+    display: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+
+    .logo {
+        width: 6em;
+    }
+
+    ul {
+        display: flex;
+
+        a {
+            display: block;
+            padding: 0.8em;
+        }
+    }
 }
