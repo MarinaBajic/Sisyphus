@@ -30,7 +30,8 @@ button {
   border-radius: 0.3em;
 }
 
-.demo, .hero-image {
+.demo,
+.hero-image {
   display: none;
 }
 
@@ -42,12 +43,17 @@ header {
 header .logo {
   width: 6em;
 }
-header ul {
+header nav {
   display: flex;
 }
-header ul a {
+header nav ul {
+  display: flex;
+  align-items: center;
+}
+header nav ul a {
   display: block;
   padding: 0.8em;
+  font-size: 0.8rem;
 }
 
 .hero {
@@ -73,6 +79,7 @@ header ul a {
   .hero {
     display: grid;
     grid-template-columns: 50% auto;
+    gap: 1em;
     padding: 2em 4em;
   }
   .hero .content {
@@ -89,5 +96,23 @@ header ul a {
   .hero .hero-image {
     display: unset;
     width: 100%;
+  }
+}
+@media only screen and (min-width: 900px) {
+  header {
+    padding: 1em 6em;
+  }
+  .hero {
+    grid-template-columns: 66% auto;
+    gap: 2em;
+    padding: 2em 6em;
+  }
+}
+@media only screen and (min-width: 1100px) {
+  header {
+    padding: 1em 8em;
+  }
+  .hero {
+    padding: 2em 8em;
   }
 }/*# sourceMappingURL=main.css.map */
