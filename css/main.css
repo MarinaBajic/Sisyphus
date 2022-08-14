@@ -30,14 +30,14 @@ button {
   border-radius: 0.3em;
 }
 
-.demo {
+.demo, .hero-image {
   display: none;
 }
 
 header {
   display: flex;
   justify-content: space-between;
-  padding: 1em;
+  padding: 1em 2em;
 }
 header .logo {
   width: 6em;
@@ -51,7 +51,8 @@ header ul a {
 }
 
 .hero {
-  padding: 2em;
+  padding: 2em 2em;
+  display: grid;
 }
 .hero .email input {
   padding: 0.4em 1em;
@@ -63,4 +64,30 @@ header ul a {
 .hero .email button {
   padding: 0.6em 1em;
   margin: 0 0.5em;
+}
+
+@media only screen and (min-width: 650px) {
+  header {
+    padding: 1em 4em;
+  }
+  .hero {
+    display: grid;
+    grid-template-columns: 50% auto;
+    padding: 2em 4em;
+  }
+  .hero .content {
+    margin: auto 0;
+  }
+  .hero .content h1 {
+    line-height: 1.2em;
+    font-size: 2.3rem;
+    margin-bottom: 0;
+  }
+  .hero .content p {
+    margin-bottom: 2em;
+  }
+  .hero .hero-image {
+    display: unset;
+    width: 100%;
+  }
 }/*# sourceMappingURL=main.css.map */
