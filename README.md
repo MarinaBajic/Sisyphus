@@ -1,3 +1,2 @@
 # Sisyphus
-Vezbanje
-Implementacija random Figma dizajna
+Frontend Development of a Figma file
